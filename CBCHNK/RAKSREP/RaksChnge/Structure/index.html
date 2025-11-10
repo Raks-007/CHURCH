@@ -1,0 +1,99 @@
+<section id="home" class="section active">
+    <div class="hero-slider">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper" id="hero-slides">
+                <div class="swiper-slide">
+                    <div class="hero-slide" style="background: linear-gradient(135deg, #1a365d, #2c5282);">
+                        <div class="hero-overlay"></div>
+                        <div class="hero-content">
+                            <h1>Welcome to Centenary Baptist Church</h1>
+                            <p>Celebrating 100 years of faith, fellowship, and service</p>
+                            <div class="hero-buttons">
+                                <a href="#" data-section="about" class="btn btn-primary">Visit Us</a>
+                                <a href="#" data-section="live-stream" class="btn btn-secondary">Watch Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <div class="pastors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Pastoral Team</h2>
+                <p>Dedicated servants leading our congregation</p>
+            </div>
+
+            <div class="pastors-grid" id="pastors-display">
+                <!-- Static Pastor Cards -->
+                <div class="pastor-card main-pastor">
+                    <div class="pastor-image">
+                        <img src="n.jpg" alt="Rev. Dr. G.J. Niranjan Babu" />
+                    </div>
+                    <div class="pastor-info">
+                        <h3>Rev. Dr. G.J. Niranjan Babu</h3>
+                        <span class="pastor-title">Senior Pastor</span>
+                        <p>Leading our congregation with wisdom and compassion for over 15 years. Rev. Babu holds a doctorate in theology and has dedicated his life to serving God and the community.</p>
+                        <div class="pastor-contact">
+                            <p><strong>Phone:</strong> 91-9849453668</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Additional pastor cards ... -->
+            </div>
+        </div>
+    </div>
+
+    <div class="calendar-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Church Calendar</h2>
+                <p>Stay updated with upcoming events and services</p>
+            </div>
+            <div class="google-calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=cbchnk1880%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="calendar-info">
+                <p>📅 Click "+ Google Calendar" in the bottom right to add this calendar to your personal Google Calendar and never miss an event!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-stream-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Live Streaming</h2>
+                <p>Join our services from anywhere in the world</p>
+            </div>
+
+            <div class="stream-container">
+                <div class="stream-controls">
+                    <div class="stream-status" id="home-stream-status">
+                        <span class="status-indicator offline"></span>
+                        <span class="status-text">Stream Offline</span>
+                    </div>
+
+                    <div class="stream-options">
+                        <button class="stream-btn" data-source="youtube">YouTube</button>
+                        <button class="stream-btn active" data-source="direct">Direct</button>
+                    </div>
+                </div>
+
+                <div class="stream-player" id="home-stream-player">
+                    <div class="stream-placeholder">
+                        <div class="stream-info">
+                            <h3>Next Service</h3>
+                            <p id="next-service-time">Sunday 9:30 AM - Morning Worship</p>
+                            <p>Live stream will begin 10 minutes before service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
